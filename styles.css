@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 70px; /* Adjust based on navbar height */
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.bike-card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#partners img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+#partners .row {
+    justify-content: center;
+}
+
+footer {
+    background: #343a40;
+}
